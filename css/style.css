@@ -1,0 +1,652 @@
+@font-face {
+    src:url('../futura-lt/FuturaLT.ttf');
+    font-family: FuturaLT ;
+}
+@font-face {
+    src:url('../futura-lt/FuturaLT-Bold.ttf');
+    font-family: FuturaLT-Bold ;
+}
+@font-face {
+    src:url('../futura-lt/GIL_____.TTF');
+    font-family: GillSansMT ;
+}
+
+body {
+    margin: 0 auto;
+    font-family: FuturaLT;
+    background: #f3f3f3;
+    font-size: 15px;
+}
+p {
+    font-size: 23px;
+    color: #f3f3f3;
+}
+a{
+    text-decoration: none;
+}
+
+/*Header*/
+.top-header {
+    background-color: #ffcb0f;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 44px;
+}
+.contact-id nav{
+    position: absolute;
+    margin-left: 12%;
+    top: 10.575px;
+}
+.tabnav nav a{
+    color: #e5e5e5;
+    margin-left: 3px;
+}
+.tabnav nav a:hover{
+    color: #ffcb0f;
+}
+nav img{
+    width: 20px;
+    height: 20px;
+    top: 10.575px;
+    margin: 0 auto;
+}
+.social-icon {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+}
+.social-icon nav{
+    position: absolute;
+    right: 12%;
+    top: 13.575px;
+}
+
+.tabnav {
+    background-color: rgb(34, 37, 51);
+    position: absolute;
+    left: 0;
+    top: 42px;
+    width: 100%;
+    height: 92px;
+}
+.tabnav nav{
+    top: 33.445px;
+    position: absolute;
+    right: 12%;
+}
+.logo {
+    top: 15px;
+    position: absolute;
+    margin-left: 12%;
+    height: 90px;
+    line-height: 2px;
+}
+.logo h1{
+     font-size: 30px;
+     font-style: italic;
+     color: rgb(255, 203, 15);
+ }
+.logo h2{
+    font-size: 17px;
+    color: rgb(183, 183, 183);
+}
+
+/*Main BAnner*/
+.banner {
+    position: absolute;
+    top: 130px;
+    left:0;
+    width: 100%;
+    height: 741px;
+    background-image: url("../images/Layer 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-area{
+    position: absolute;
+    top: 10px;
+    margin: 0% 12% 0% 12% ;
+    text-align: center;
+}
+.text-area h2{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.text-area h1{
+    font-size: 60px;
+    font-family: FuturaLT-Bold;
+    top : 20px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5px;
+}
+.text-area h3{
+    font-size: 60px;
+    font-family: FuturaLT-Bold;
+    color: rgb(255, 203, 15);
+    line-height: 0.5px;
+}
+.text-area p{
+    top: 50px;
+    font-size: 18px;
+    color: #f3f3f3;
+}
+.button {
+    margin-top: 500px;
+    margin-left: 35%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(255, 203, 15);
+    width: 157px;
+    height: 45px;
+    font-size: 16px;
+    font-family: FuturaLT-Bold;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.button-right{
+    margin-left: 80px;
+}
+
+
+/*About-company*/
+.about-com{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 472px;
+    display: block;
+    margin-top: 870px;
+}
+.text-left{
+    position: absolute;
+    top: 30px;
+    margin-left: 12%;
+    width: 45%;
+    text-align: left;
+}
+.text-left h2{
+    font-size: 37px;
+    font-family: FuturaLT-Bold;
+    color: rgb(255, 203, 15);
+    line-height: 3.5px;
+}
+.text-left h3{
+    font-size: 30px;
+    color: #222222;
+    line-height: 3.5px;
+}
+.text-left p{
+    font-size: 15px ;
+    color: #222222;
+}
+.text-left button{
+    margin-top: 50px;
+    margin-left: 0px;
+    font-size: 16px;
+    font-family: FuturaLT-Bold;
+    border-radius: 10px;
+    background-color: rgb(255, 203, 15);
+    width: 157px;
+    height: 45px;
+    border: none;
+}
+.bg-right {
+     right: 12%;
+     margin-left: 57%;
+     background-image: url("../images/Layer 2.png");
+     background-repeat: no-repeat;
+     background-position: 5px;
+ }
+.bg-right img{
+    margin-left: 25%;
+}
+/*Why-chose-us*/
+.Why-chose-us{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 580px;
+    margin-top: 1342px;
+    background-color: #f2f7fa;
+}
+.text-center{
+    text-align: center;
+    margin: 0% 12% 0% 12%;
+}
+.text-center h2{
+    font-size: 30px;
+    margin-top: 3%;
+    font-family: FuturaLT-Bold;
+    color: #222222;
+}
+.text-center p{
+    font-size: 15px ;
+    color: #222222;
+}
+.container {
+    display: flex;
+    padding-top: 2px;
+    margin: 0% 12% 0% 12%; }
+.item-4 {
+    flex-basis: 25%;
+    margin-left: 1%;}
+.item-4-wcu {
+    flex-basis: 25%;
+    text-align: center;
+}
+.item-4 h4{
+    font-size: 18px;
+    font-family: FuturaLT-Bold;
+    color: #222222;
+}
+.item-4 p{
+    font-size: 15px ;
+    color: #222222;
+}
+.item-4 h2{
+    font-size: 20px;
+    color: rgb(183, 183, 183);
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    /*text-align: center;*/
+}
+.item-4 h6{
+    font-size: 12px;
+    color: #ffffff;
+    margin: 2px 0px;
+}
+.item-4-footer {
+    flex-basis: 25%;
+    margin-left: 1%;}
+.item-4-footer p{
+    font-size: 15px ;
+    color: rgb(183, 183, 183);
+    margin-top: 10%;
+    margin-left: 5%;
+    float: left;
+}
+.item-4 img{
+    float: left;
+    margin: 10% 3% 0% 10%;
+}
+.footer .item-4 p{
+    display: inline;
+    font-size: 15px ;
+    color: rgb(183, 183, 183);
+    margin: 10% 3% 0% 10%;
+    float: left;
+}
+.item-4-footer h3{
+    float: left;
+    font-size: 25px;
+    font-family: FuturaLT-Bold;
+    font-style: italic;
+    margin-top: 20%;
+    line-height: 0.5px;
+    color: rgb(255, 203, 15);
+}
+.item-4-footer h5{
+    float: left;
+    margin-top: 0.005px;
+    font-size: 17px;
+    color: rgb(183, 183, 183);
+}
+.item-4-footer h2{
+    font-size: 20px;
+    color: rgb(183, 183, 183);
+    margin-top: 20%;
+    margin-bottom: 10%;
+    text-align: left;
+}
+.bo-1{
+    width: 150px;
+    height: 150px;
+    background: #ffea9f;
+    border-radius: 90px;
+    margin: 30px;
+}
+.bo-2{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin: 10px 10px;
+    background: #fadb64;
+    border-radius: 80px;
+}
+.bo-3 {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    margin: 10px 10px;
+    background: #ffcb0f;
+    border-radius: 80px;
+}
+.bo-4{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    margin: 10px 10px;
+    background: #ffffff;
+    border-radius: 80px;
+}
+.bo-4 img{
+    margin-top: 20px;
+    margin-left: 19px;
+}
+
+
+
+
+/* Our Service*/
+.our-service{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 741px;
+    margin-top: 1903px;
+    background-color: #fafff8;
+}
+.our-service h2{
+    font-size: 30px;
+    margin-top: 5%;
+    text-align: center;
+    font-family: FuturaLT-Bold;
+    color: #222222;
+}
+.item-3 {
+    flex-basis: 33%;
+    margin-left: 2%;
+}
+.item-3 img{
+    width: 95%;
+    height: 50%;
+}
+.item-3 .review-left img{
+    float:left;
+    margin-left: 5%;
+    margin-top: 5%;
+    max-width: 15%;
+    max-height: 15%;
+}
+.item-3 h4{
+    font-size: 19px;
+    font-family: FuturaLT-Bold;
+    color: #222222;
+}
+.item-3 p{
+    font-size: 15px ;
+    color: #222222;
+}
+.item-3 button{
+    margin-top: 20px;
+    margin-left: 0px;
+    font-size: 16px;
+    font-family: FuturaLT-Bold;
+    border-radius: 10px;
+    background-color: rgb(255, 203, 15);
+    width: 157px;
+    height: 45px;
+    border: none;
+}
+.item-3 .review-center img{
+    float:left;
+    margin-left: 5%;
+    margin-top: 5%;
+    max-width: 14%;
+    max-height: 11%;
+}
+
+/*Made-with-love*/
+.made-with-love{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 890px;
+    margin-top: 2644px;
+    background-image: url("../images/Layer 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.made-with-love h2{
+    font-size: 30px;
+    margin-top: 5%;
+    text-align: center;
+    font-family: FuturaLT-Bold;
+    color: #f3f3f3;
+}
+.made-with-love section{
+    margin: 0% 12% 5% 12%;
+    text-align: center;
+}
+.made-with-love p{
+    font-size: 15px;
+}
+.made-with-love nav a{
+    font-size: 17px;
+    font-family: FuturaLT;
+    margin-left: 3%;
+}
+.made-with-love nav a:hover{
+    background-color: #282828;
+    border-radius: 100px;
+}
+button:hover{
+    color: #222222;
+}
+ul {
+    margin: 25% 0% 2% 15%;
+    padding: 0;
+    list-style: none;
+}
+li {
+    font-size: 15px;
+    color: #e5e5e5;
+    margin-bottom: 8%;
+    display: list-item;
+}
+li img{
+    border-radius: 50%;
+    margin-left: 0;
+}
+.container-made {
+    display: flex;
+    margin: 0% 0.5% 0% 0.5%; }
+.item-2{
+    flex-basis: 50%;
+    margin-right: 3px;
+}
+.item-6{
+    flex-basis: 50%;
+}
+.item-6 img{
+    height: 415px;
+    width: 100%;
+}
+.item-2 img{
+    width: 100%;
+}
+
+/* Customer review
+ */
+.review{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1050px;
+    margin-top: 3534px;
+    background-image: url("../images/Layer 17.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review-left{
+    height: 250px;
+    margin: 25% 4% 0% 4%;
+    border-radius: 3.5%;
+    background-color: #e5e5e5;
+}
+.review-center{
+    height: 330px;
+    margin: 8% 3% 0% 3%;
+    border-radius: 3.5%;
+    background-color: #ffcb0f;
+}
+.review-left p{
+    padding-top: 15%;
+    text-align: left;
+    margin: 0% 5% 13% 20%;
+}
+.review-center p{
+    padding-top: 18%;
+    text-align: left;
+    margin: 0% 5% 13% 20%;
+    color: #f3f3f3;
+}
+.icon-img{
+    width: 30%;
+    margin: 20% auto;
+    text-align: center;
+}
+.box-center {
+    margin: 0 auto;
+    border-top: 15px solid #ffcb0f;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+    width: 0; height:0;
+}
+.box-left {
+    margin: 0 auto;
+    border-top: 15px solid #e5e5e5;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+    width: 0; height:0;
+}
+.box-right {
+    float: left;
+    display: inline-block;
+    border-top: 5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #e5e5e5;
+    width: 0;
+    height:2px;
+    margin: 0% 5% 0% 0%;
+}
+
+
+/*Contact form
+ */
+.contact{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    margin-top: 4350px;
+    background-color: #ffcb0f;
+    opacity: 0.7;
+}
+.contact h2{
+    font-size: 30px;
+    margin-top: 8%;
+    text-align: center;
+    font-family: FuturaLT-Bold;
+    color: #222222;
+}
+.contact h1{
+    font-size: 35px;
+    margin-top: 5%;
+    text-align: center;
+    color: #222222;
+}
+.item-2 input{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 10% 5% 5% 15%;
+    width: 220px;
+    height: 45px;
+    border: none;
+}
+.contact-input input{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 2% 0% 5% 8%;
+    width: 340px;
+    height: 45px;
+    max-width: 100%;
+    border: none;
+}
+.contact-input button{
+    border-radius: 10px;
+    background-color: rgb(47, 50, 64);
+    width: 120px;
+    height: 50px;
+    margin-left: 0.5%;
+    color: #f3f3f3;
+    border: none;
+}
+
+/*Footer
+ */
+.tab-mo{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    margin-top: 4530px;
+    background-color: #222533;
+    opacity: 0.4;
+}
+.footer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 550px;
+    margin-top: 4584px;
+    background-image: url("../images/Layer 4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-footer {
+    position: absolute;
+    margin-top: 320px;
+     display: flex;}
+
+.item-5 {
+    flex-basis: 20%;
+    margin-right: 3%;
+    width: 50px;
+    height: 40px;
+    background-color: #ffcb0f;
+    border-radius: 50px;
+}
+.item-5 img{
+    margin-left: 22%;
+    margin-top: 20%;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 65px;
+    background-color: #222533;
+}
+footer p{
+    line-height: 5.5px;
+    margin: 30% 0 0 38%;
+    display: inline;
+    font-size: 17px;
+    color: #f3f3f3;
+}
+footer h6{
+    top: 10px;
+    display: inline;
+    font-size: 17px;
+    color: #ffcb0f;
+}
