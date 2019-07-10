@@ -270,7 +270,7 @@ nav img{
 }
 .item-4 img{
     float: left;
-    margin: 10% 3% 0% 10%;
+    padding-right: 5px;
 }
 .footer .item-4 p{
     display: inline;
@@ -437,7 +437,7 @@ button:hover{
     color: #222222;
 }
 ul {
-    margin: 25% 0% 2% 15%;
+    margin: 25% 0% 2% 5%;
     padding: 0;
     list-style: none;
 }
@@ -611,6 +611,9 @@ li img{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.text-footer{
+    padding-top: 15px;
+}
 .container-footer {
     position: absolute;
     margin-top: 320px;
@@ -628,7 +631,6 @@ li img{
     margin-left: 22%;
     margin-top: 20%;
 }
-
 footer{
     position: absolute;
     left: 0;
