@@ -34,6 +34,26 @@ a{
     width: 100%;
     height: 44px;
 }
+.nav-top{
+    margin-left: 10%;
+    width: 50%;
+    height: 44px;
+    display: inline-block;
+}
+.nav-top span{
+    margin-left: 1%;
+    font-size: 14px;
+}
+.nav-top ul{
+    margin-top: 0;
+}
+.nav-top li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    margin-top: 2%;
+    margin-right: 1%;
+}
 .contact-id nav{
     position: absolute;
     margin-left: 12%;
@@ -41,7 +61,7 @@ a{
 }
 .tabnav nav a{
     color: #e5e5e5;
-    margin-left: 3px;
+    margin-left: 15px;
 }
 .tabnav nav a:hover{
     color: #ffcb0f;
@@ -53,16 +73,22 @@ nav img{
     margin: 0 auto;
 }
 .social-icon {
-    position: absolute;
-    left: 0px;
-    width: 100%;
+    width: 25%;
+    height: 44px;
+    display: inline;
+    margin-right: 12%;
+    float: right;
 }
-.social-icon nav{
-    position: absolute;
-    right: 12%;
-    top: 13.575px;
+.social-icon ul{
+    margin-top: 2%;
 }
-
+.social-icon li{
+    list-style: none;
+    float: right;
+    width: 5%;
+    margin-top: 2%;
+    margin-right: 4%;
+}
 .tabnav {
     background-color: rgb(34, 37, 51);
     position: absolute;
@@ -92,6 +118,7 @@ nav img{
     font-size: 17px;
     color: rgb(183, 183, 183);
 }
+
 
 /*Main BAnner*/
 .banner {
@@ -436,12 +463,12 @@ nav img{
 button:hover{
     color: #222222;
 }
-ul {
+.item-4 ul {
     margin: 25% 0% 2% 5%;
     padding: 0;
     list-style: none;
 }
-li {
+.item-4 li {
     font-size: 15px;
     color: #e5e5e5;
     margin-bottom: 8%;
@@ -457,6 +484,7 @@ li img{
 .item-2{
     flex-basis: 50%;
     margin-right: 3px;
+    height: 100%;
 }
 .item-6{
     flex-basis: 50%;
@@ -467,6 +495,7 @@ li img{
 }
 .item-2 img{
     width: 100%;
+    height: 205px;
 }
 
 /* Customer review
@@ -612,7 +641,7 @@ li img{
     background-size: cover;
 }
 .text-footer{
-    padding-top: 15px;
+    padding-top: 18px;
 }
 .container-footer {
     position: absolute;
@@ -627,16 +656,16 @@ li img{
     background-color: #ffcb0f;
     border-radius: 50px;
 }
-.item-5 img{
-    margin-left: 22%;
-    margin-top: 20%;
+.item-5 i{
+    margin-left: 30%;
+    margin-top: 30%;
 }
 footer{
     position: absolute;
     left: 0;
     width: 100%;
-    height: 50px;
-    margin-top: 65px;
+    height: 60px;
+    margin-top: 5134px;
     background-color: #222533;
 }
 footer p{
