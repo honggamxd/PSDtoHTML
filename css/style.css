@@ -10,15 +10,18 @@
     src:url('../futura-lt/GIL_____.TTF');
     font-family: GillSansMT ;
 }
-
+.main{
+    margin: 0 auto;
+}
 body {
+    width: 1100px;
     margin: 0 auto;
     font-family: FuturaLT;
     background: #f3f3f3;
     font-size: 15px;
 }
 p {
-    font-size: 23px;
+    font-size: 20px;
     color: #f3f3f3;
 }
 a{
@@ -29,20 +32,20 @@ a{
 .top-header {
     background-color: #ffcb0f;
     position: absolute;
-    left: 0px;
     top: 0px;
-    width: 100%;
+    margin: 0 auto;
+    width: 1100px;
     height: 44px;
 }
 .nav-top{
-    margin-left: 10%;
+    margin-left:5%;
     width: 50%;
     height: 44px;
     display: inline-block;
 }
 .nav-top span{
-    margin-left: 1%;
-    font-size: 14px;
+    margin-left: 0%;
+    font-size: 12px;
 }
 .nav-top ul{
     margin-top: 0;
@@ -50,13 +53,13 @@ a{
 .nav-top li{
     list-style: none;
     float: left;
-    width: 25%;
+    width: 30%;
     margin-top: 2%;
-    margin-right: 1%;
+    margin-right: 2px;
 }
 .contact-id nav{
     position: absolute;
-    margin-left: 12%;
+    margin-left: 8%;
     top: 10.575px;
 }
 .tabnav nav a{
@@ -76,7 +79,7 @@ nav img{
     width: 25%;
     height: 44px;
     display: inline;
-    margin-right: 12%;
+    margin-right: 8%;
     float: right;
 }
 .social-icon ul{
@@ -92,30 +95,30 @@ nav img{
 .tabnav {
     background-color: rgb(34, 37, 51);
     position: absolute;
-    left: 0;
     top: 42px;
-    width: 100%;
+    width: 1100px;
+    margin: 0 auto;
     height: 92px;
 }
 .tabnav nav{
     top: 33.445px;
     position: absolute;
-    right: 12%;
+    right: 8%;
 }
 .logo {
     top: 15px;
     position: absolute;
-    margin-left: 12%;
+    margin-left: 8%;
     height: 90px;
     line-height: 2px;
 }
 .logo h1{
-     font-size: 30px;
+     font-size: 27px;
      font-style: italic;
      color: rgb(255, 203, 15);
  }
 .logo h2{
-    font-size: 17px;
+    font-size: 15px;
     color: rgb(183, 183, 183);
 }
 
@@ -124,9 +127,9 @@ nav img{
 .banner {
     position: absolute;
     top: 130px;
-    left:0;
-    width: 100%;
-    height: 741px;
+    width: 1100px;
+    margin: 0 auto;
+    height: 700px;
     background-image: url("../images/Layer 9.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,40 +137,40 @@ nav img{
 .text-area{
     position: absolute;
     top: 10px;
-    margin: 0% 12% 0% 12% ;
+    margin: 0% 8% 0% 8% ;
     text-align: center;
 }
 .text-area h2{
-    font-size: 40px;
+    font-size: 35px;
     color: rgb(255, 255, 255);
 }
 .text-area h1{
-    font-size: 60px;
+    font-size: 50px;
     font-family: FuturaLT-Bold;
     top : 20px;
     color: rgb(255, 255, 255);
     line-height: 1.5px;
 }
 .text-area h3{
-    font-size: 60px;
+    font-size: 50px;
     font-family: FuturaLT-Bold;
     color: rgb(255, 203, 15);
     line-height: 0.5px;
 }
 .text-area p{
     top: 50px;
-    font-size: 18px;
+    font-size: 16px;
     color: #f3f3f3;
 }
 .button {
-    margin-top: 500px;
+    margin-top: 450px;
     margin-left: 35%;
     border-radius: 10px;
     text-align: center;
     background-color: rgb(255, 203, 15);
-    width: 157px;
-    height: 45px;
-    font-size: 16px;
+    width: 147px;
+    height: 40px;
+    font-size: 14px;
     font-family: FuturaLT-Bold;
     color: rgb(255, 255, 255);
     border: none;
@@ -180,27 +183,26 @@ nav img{
 /*About-company*/
 .about-com{
     position: absolute;
-    left: 0;
-    width: 100%;
+    width: 1100px;
+    margin: 870px auto;
     height: 472px;
     display: block;
-    margin-top: 870px;
 }
 .text-left{
     position: absolute;
     top: 30px;
-    margin-left: 12%;
+    margin-left: 8%;
     width: 45%;
     text-align: left;
 }
 .text-left h2{
-    font-size: 37px;
+    font-size: 30px;
     font-family: FuturaLT-Bold;
     color: rgb(255, 203, 15);
     line-height: 3.5px;
 }
 .text-left h3{
-    font-size: 30px;
+    font-size: 25px;
     color: #222222;
     line-height: 3.5px;
 }
@@ -220,7 +222,7 @@ nav img{
     border: none;
 }
 .bg-right {
-     right: 12%;
+     right: 8%;
      margin-left: 57%;
      background-image: url("../images/Layer 2.png");
      background-repeat: no-repeat;
@@ -232,15 +234,14 @@ nav img{
 /*Why-chose-us*/
 .Why-chose-us{
     position: absolute;
-    left: 0;
-    width: 100%;
+    width: 1100px;
     height: 580px;
     margin-top: 1342px;
     background-color: #f2f7fa;
 }
 .text-center{
     text-align: center;
-    margin: 0% 12% 0% 12%;
+    margin: 0% 8% 0% 8%;
 }
 .text-center h2{
     font-size: 30px;
@@ -255,7 +256,7 @@ nav img{
 .container {
     display: flex;
     padding-top: 2px;
-    margin: 0% 12% 0% 12%; }
+    margin: 0% 8% 0% 8%; }
 .item-4 {
     flex-basis: 25%;
     margin-left: 1%;}
@@ -360,8 +361,10 @@ nav img{
     border-radius: 80px;
 }
 .bo-4 img{
-    margin-top: 20px;
-    margin-left: 19px;
+    margin-top: 27px;
+    margin-left: 25px;
+    width: 32px;
+    height: 32px;
 }
 
 
@@ -370,8 +373,7 @@ nav img{
 /* Our Service*/
 .our-service{
     position: absolute;
-    left: 0;
-    width: 100%;
+    width: 1100px;
     height: 741px;
     margin-top: 1903px;
     background-color: #fafff8;
@@ -429,8 +431,7 @@ nav img{
 /*Made-with-love*/
 .made-with-love{
     position: absolute;
-    left: 0;
-    width: 100%;
+    width: 1100px;
     height: 890px;
     margin-top: 2644px;
     background-image: url("../images/Layer 3.png");
@@ -445,7 +446,7 @@ nav img{
     color: #f3f3f3;
 }
 .made-with-love section{
-    margin: 0% 12% 5% 12%;
+    margin: 0% 8% 5% 8%;
     text-align: center;
 }
 .made-with-love p{
@@ -502,8 +503,7 @@ li img{
  */
 .review{
     position: absolute;
-    left: 0;
-    width: 100%;
+    width: 1100px;
     height: 1050px;
     margin-top: 3534px;
     background-image: url("../images/Layer 17.png");
@@ -572,22 +572,21 @@ li img{
  */
 .contact{
     position: absolute;
-    left: 0;
-    width: 100%;
+    width: 1100px;
     height: 180px;
     margin-top: 4350px;
     background-color: #ffcb0f;
     opacity: 0.7;
 }
 .contact h2{
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 8%;
     text-align: center;
     font-family: FuturaLT-Bold;
     color: #222222;
 }
 .contact h1{
-    font-size: 35px;
+    font-size: 27px;
     margin-top: 5%;
     text-align: center;
     color: #222222;
@@ -604,7 +603,7 @@ li img{
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     margin: 2% 0% 5% 8%;
-    width: 340px;
+    width: 310px;
     height: 45px;
     max-width: 100%;
     border: none;
@@ -612,9 +611,9 @@ li img{
 .contact-input button{
     border-radius: 10px;
     background-color: rgb(47, 50, 64);
-    width: 120px;
-    height: 50px;
-    margin-left: 0.5%;
+    width: 100px;
+    height: 45px;
+    margin-left: 5px;
     color: #f3f3f3;
     border: none;
 }
@@ -623,8 +622,7 @@ li img{
  */
 .tab-mo{
     position: absolute;
-    left: 0;
-    width: 100%;
+    width: 1100px;
     height: 60px;
     margin-top: 4530px;
     background-color: #222533;
@@ -632,8 +630,7 @@ li img{
 }
 .footer{
     position: absolute;
-    left: 0;
-    width: 100%;
+    width: 1100px;
     height: 550px;
     margin-top: 4584px;
     background-image: url("../images/Layer 4.png");
@@ -662,8 +659,7 @@ li img{
 }
 footer{
     position: absolute;
-    left: 0;
-    width: 100%;
+    width: 1100px;
     height: 60px;
     margin-top: 5134px;
     background-color: #222533;

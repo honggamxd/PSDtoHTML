@@ -3,7 +3,7 @@
 Tạo trang HTML từ file PSD trước
 Chuyển từ psd sang html
 
-Thực hiện bởi Hồng (https://github.com/username_ung_vien)
+Thực hiện bởi Hồng
 
 ## Liên kết
 
