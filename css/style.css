@@ -44,7 +44,7 @@ a{
     display: inline-block;
 }
 .nav-top span{
-    margin-left: 0%;
+    margin-left: 2%;
     font-size: 12px;
 }
 .nav-top ul{
@@ -238,6 +238,7 @@ nav img{
     height: 580px;
     margin-top: 1342px;
     background-color: #f2f7fa;
+    padding-bottom: 10px;
 }
 .text-center{
     text-align: center;
@@ -265,9 +266,10 @@ nav img{
     text-align: center;
 }
 .item-4 h4{
-    font-size: 18px;
+    font-size: 17px;
     font-family: FuturaLT-Bold;
     color: #222222;
+    text-align: center;
 }
 .item-4 p{
     font-size: 15px ;
@@ -361,8 +363,8 @@ nav img{
     border-radius: 80px;
 }
 .bo-4 img{
-    margin-top: 27px;
-    margin-left: 25px;
+    margin-top: 29px;
+    margin-left: 28px;
     width: 32px;
     height: 32px;
 }
@@ -401,7 +403,7 @@ nav img{
     max-height: 15%;
 }
 .item-3 h4{
-    font-size: 19px;
+    font-size: 17px;
     font-family: FuturaLT-Bold;
     color: #222222;
 }
@@ -594,24 +596,29 @@ li img{
 .item-2 input{
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    margin: 10% 5% 5% 15%;
-    width: 220px;
+    margin: 10% 0% 5% 0%;
+    width: 240px;
     height: 45px;
     border: none;
+    padding-left: 10px;
+}
+.contact-input{
+    margin-right: 10px;
 }
 .contact-input input{
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
-    margin: 2% 0% 5% 8%;
-    width: 310px;
+    margin: 2% 2% 5% 0%;
+    width: 400px;
     height: 45px;
     max-width: 100%;
     border: none;
+    padding-left: 10px;
 }
 .contact-input button{
     border-radius: 10px;
     background-color: rgb(47, 50, 64);
-    width: 100px;
+    width: 90px;
     height: 45px;
     margin-left: 5px;
     color: #f3f3f3;
@@ -650,6 +657,7 @@ li img{
     margin-right: 3%;
     width: 50px;
     height: 40px;
+    margin-top: 15px;
     background-color: #ffcb0f;
     border-radius: 50px;
 }
