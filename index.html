@@ -339,12 +339,12 @@
                             <input id="name" type="text" placeholder="Name" required >
                         </div>
                         <div class="item-2">
-                            <input id="mail" type="text" placeholder="Email" onblur="checkMail()" required >
+                            <input id="mail" type="text" placeholder="Email" required >
                         </div>
                     </div>
                     <div class="contact-input">
                         <input id="message" type="text" placeholder="Message" required >
-                        <button type="submit" >SUBMIT</button>
+                        <button type="submit" onblur="checkMail()" >SUBMIT</button>
                     </div>
                 </form>
 
