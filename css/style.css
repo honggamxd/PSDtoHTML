@@ -466,17 +466,19 @@ nav img{
     font-size: 15px;
 }
 .made-with-love nav a{
-    font-size: 17px;
+    font-size: 15px;
     font-family: FuturaLT;
+    color: #f3f3f3;
     margin-left: 3%;
-    padding: 7px;
+    padding: 10px;
 }
 .made-with-love nav a:hover{
-    background-color: #f3f3f3;
+    background-color: #222533;
     border-radius: 100px;
 }
 button:hover{
-    color: #222222;
+    background-color: #222533;
+
 }
 .item-4 ul {
     margin: 25% 0% 2% 5%;
@@ -592,7 +594,7 @@ li img{
     height: 180px;
     margin-top: 4350px;
     background-color: #ffcb0f;
-    opacity: 0.7;
+    opacity: 0.75;
 }
 .contact h2{
     font-size: 25px;
@@ -683,7 +685,7 @@ li img{
     margin-top: 30%;
 }
 .item-4 a{
-    color: #f3f3f3;
+    color: rgb(183, 183, 183);
 }
 footer{
     position: absolute;
@@ -775,4 +777,7 @@ footer h6{
 }
 .padding{
     padding-left: 60px;
+}
+a {
+    color: #222222;
 }
