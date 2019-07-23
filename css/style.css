@@ -88,9 +88,10 @@ nav img{
 .social-icon li{
     list-style: none;
     float: right;
-    width: 5%;
+    text-align: center;
+    width: 7%;
     margin-top: 2%;
-    margin-right: 4%;
+    margin-left: 4%;
 }
 .tabnav {
     background-color: rgb(34, 37, 51);
@@ -468,9 +469,10 @@ nav img{
     font-size: 17px;
     font-family: FuturaLT;
     margin-left: 3%;
+    padding: 7px;
 }
 .made-with-love nav a:hover{
-    background-color: #282828;
+    background-color: #f3f3f3;
     border-radius: 100px;
 }
 button:hover{
@@ -770,4 +772,7 @@ footer h6{
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+.padding{
+    padding-left: 60px;
 }

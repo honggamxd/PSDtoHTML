@@ -273,9 +273,9 @@
                 dolor
                 sit amet, consectetur, adipisci velit,</p>
         </div>
-        <div class="container" onclick="set()">
+        <div class="container">
             <div class="item-3" onclick="changeReview( '.review-1','.review-2','.review-3' )">
-                <div class="review-1">
+                <div class="review-1" style="z-index: 0">
                     <div class="review-left">
                         <img src="images/review-left.JPG">
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
@@ -290,8 +290,8 @@
                     <h5>JOHN SMITH</h5>
                 </div>
             </div>
-            <div class="item-3" onclick="changeReview( '.review-1','.review-2','.review-3')">
-                <div class="review-2">
+            <div class="item-3" onclick="changeReview( '.review-2','.review-1','.review-3')">
+                <div class="review-2" style="z-index: 1">
                     <div class="review-center">
                         <img src="images/review-center.JPG">
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
@@ -306,8 +306,8 @@
                     <h5>JOHN SMITH</h5>
                 </div>
             </div>
-            <div class="item-3" onclick="changeReview( '.review-3','.review-2','.review-1' )">
-                <div class="review-3">
+            <div class="item-3" onclick="changeReview( '.review-3','.review-1','.review-2' )">
+                <div class="review-3" style="z-index: 0">
                     <div class="review-left">
                         <img src="images/review-left.JPG">
                         <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
@@ -389,7 +389,7 @@
 
 
             </div>
-            <div class="item-4">
+            <div class="item-4 padding" >
                 <h2>Exlpor link</h2>
                 <ul>
                     <li><a href="#"><i class="box-right"></i>Our services</a></li>

@@ -1,7 +1,3 @@
-function checkRequrie() {
-    var input_name = document.querySelector("#name");
-    if(!input_name.value) alert("Name không được để trống");
-}
 function checkMail(){
     var input_mail = document.querySelector("#mail");
     if(input_mail.value){
@@ -22,39 +18,30 @@ function show() {
     }, 3000) ;
 }
     show();
-function set(){
-    var review_1 = document.querySelector('.review-1');
-    var review_2 = document.querySelector('.review-2');
-    var review_3 = document.querySelector('.review-3');
-    review_1.style.zIndex = 0;
-    review_2.style.zIndex = 1;
-    review_3.style.zIndex = 0;
+function active(x){
+    var child = x.children;
+    child[0].className = "review-center";
+    child[1].className = "box-center";
+    child[0].children[0].src = "images/review-center.JPG";
+    x.style.zIndex = 1 ;
 }
-    set();
-
+function normal(x){
+    var child = x.children;
+    child[0].className = "review-left";
+    child[1].className = "box-left";
+    child[0].children[0].src = "images/review-left.JPG";
+    x.style.zIndex = 0 ;
+}
 function changeReview(selector_1, selector_2, selector_3 ){
     var left = document.querySelector(selector_1);
     var center = document.querySelector(selector_2);
     var right = document.querySelector(selector_3);
-    if( left.style.zIndex == 0){
-        if( center.style.zIndex == 1 ){
-            var active = center.cloneNode(true);
-            var normal_1 = left.cloneNode(true);
-            var normal_2 = right.cloneNode(true);
-        }
-        else if( right.style.zIndex == 1 ){
-            var active = right.cloneNode(true);
-            var normal_1 = center.cloneNode(true);
-            var normal_2 = left.cloneNode(true);
-        }
-        active.style.zIndex = 1;
-        normal_1.style.zIndex = 0;
-        normal_2.style.zIndex = 0;
-        left.replaceWith(active);
-        center.replaceWith(normal_1);
-        right.replaceWith(normal_2);
+
+    if( left.style.zIndex == "0"){
+        active(left);
+        normal(center);
+        normal(right);
     }
-    else 1;
 }
 
 
