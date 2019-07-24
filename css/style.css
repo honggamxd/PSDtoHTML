@@ -478,6 +478,7 @@ nav img{
 }
 button:hover{
     background-color: #222533;
+    cursor:pointer;
 
 }
 .item-4 ul {
@@ -642,6 +643,7 @@ li img{
 }
 .contact-input button:hover{
     background-color: firebrick;
+    cursor:pointer;
 }
 
 /*Footer
