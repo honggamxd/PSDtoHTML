@@ -18,108 +18,89 @@ body {
     margin: 0 auto;
     font-family: FuturaLT;
     background: #f3f3f3;
-    font-size: 15px;
+    font-size: 14px;
 }
-p {
-    font-size: 20px;
-    color: #f3f3f3;
-}
+
 a{
     text-decoration: none;
+}
+.content {
+    margin-left: 120px;
+    margin-right: 120px;
+    height: auto;
 }
 
 /*Header*/
 .top-header {
     background-color: #ffcb0f;
-    position: absolute;
-    top: 0px;
     margin: 0 auto;
     width: 1100px;
-    height: 44px;
 }
 .nav-top{
-    margin-left:5%;
-    width: 50%;
-    height: 44px;
     display: inline-block;
 }
-.nav-top span{
-    margin-left: 2%;
-    font-size: 12px;
-}
 .nav-top ul{
-    margin-top: 0;
+    padding-left: 0px;
 }
 .nav-top li{
     list-style: none;
-    float: left;
-    width: 30%;
-    margin-top: 2%;
-    margin-right: 2px;
+    display: inline-block;
 }
-.contact-id nav{
-    position: absolute;
-    margin-left: 8%;
-    top: 10.575px;
+.nav-top span{
+    margin-left: 10px;
+    font-size: 12px;
+    margin-right: 15px;
+    padding: 25px 0px 15px 0px;
 }
-.tabnav nav a{
-    color: #e5e5e5;
-    margin-left: 15px;
-}
-.tabnav nav a:hover{
-    color: #ffcb0f;
-}
-nav img{
-    width: 20px;
-    height: 20px;
-    top: 10.575px;
-    margin: 0 auto;
-}
+
 .social-icon {
     width: 25%;
-    height: 44px;
     display: inline;
-    margin-right: 8%;
     float: right;
 }
 .social-icon ul{
-    margin-top: 2%;
+    padding-right: 0;
 }
 .social-icon li{
     list-style: none;
     float: right;
     text-align: center;
-    width: 7%;
-    margin-top: 2%;
-    margin-left: 4%;
+    width: 15px;
+    padding: 5px;
 }
 .tabnav {
     background-color: rgb(34, 37, 51);
     position: absolute;
-    top: 42px;
     width: 1100px;
     margin: 0 auto;
-    height: 92px;
+    height: 82px;
 }
 .tabnav nav{
-    top: 33.445px;
     position: absolute;
-    right: 8%;
+    right: 120px;
+    padding: 30px 0px 30px 0px;
+}
+.tabnav nav a{
+    color: #e5e5e5;
+    margin-left: 15px;
+    font-size: 14px;
+}
+.tabnav nav a:hover{
+    color: #ffcb0f;
 }
 .logo {
-    top: 15px;
     position: absolute;
-    margin-left: 8%;
-    height: 90px;
     line-height: 2px;
+    padding: 15px 0px 15px 0px;
 }
 .logo h1{
-     font-size: 27px;
+     font-size: 20px;
      font-style: italic;
+    font-family: FuturaLT-Bold ;
      color: rgb(255, 203, 15);
  }
-.logo h2{
-    font-size: 15px;
+.logo h3{
+    font-size: 14px;
     color: rgb(183, 183, 183);
 }
 
@@ -127,10 +108,10 @@ nav img{
 /*Main BAnner*/
 .banner {
     position: absolute;
-    top: 130px;
+    top: 128px;
     width: 1100px;
     margin: 0 auto;
-    height: 600px;
+    height: 501px;
     background-image: url("../images/Layer 9.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,29 +121,29 @@ nav img{
     top: 130px;
     width: 1100px;
     margin: 0 auto;
-    height: 600px;
+    height: 500px;
     background-color: #333333;
     opacity: 0.2;
 }
 .text-area{
-    position: absolute;
-    top: 10px;
-    margin: 0% 8% 0% 8% ;
     text-align: center;
+    margin: 80px 50px 60px 50px;
 }
 .text-area h2{
-    font-size: 35px;
+    font-family: FuturaLT;
+    font-size: 30px;
+    font-weight: 100;
     color: rgb(255, 255, 255);
 }
 .text-area h1{
-    font-size: 50px;
+    font-size: 48px;
     font-family: FuturaLT-Bold;
     top : 20px;
     color: rgb(255, 255, 255);
-    line-height: 1.5px;
+    line-height: 2px;
 }
 .text-area h3{
-    font-size: 50px;
+    font-size: 48px;
     font-family: FuturaLT-Bold;
     color: rgb(255, 203, 15);
     line-height: 0.5px;
@@ -172,15 +153,16 @@ nav img{
     font-size: 16px;
     color: #f3f3f3;
 }
+.more{
+    text-align: center;
+}
 .button {
-    margin-top: 450px;
-    margin-left: 35%;
     border-radius: 10px;
     text-align: center;
     background-color: rgb(255, 203, 15);
-    width: 147px;
-    height: 40px;
-    font-size: 14px;
+    width: 120px;
+    height: 35px;
+    font-size: 12px;
     font-family: FuturaLT-Bold;
     color: rgb(255, 255, 255);
     border: none;
@@ -194,104 +176,103 @@ nav img{
 .about-com{
     position: absolute;
     width: 1100px;
-    margin: 770px auto;
-    height: 472px;
+    margin: 580px auto;
+    height: 422px;
     display: block;
 }
 .text-left{
     position: absolute;
     top: 30px;
-    margin-left: 8%;
-    width: 45%;
+    width: 60%;
     text-align: left;
 }
 .text-left h2{
-    font-size: 30px;
+    font-size: 32px;
     font-family: FuturaLT-Bold;
+    line-height: 0.1;
     color: rgb(255, 203, 15);
-    line-height: 3.5px;
 }
 .text-left h3{
-    font-size: 25px;
+    font-size: 24px;
+    font-family: FuturaLT-Bold;
+    font-weight: 400;
     color: #222222;
-    line-height: 3.5px;
 }
 .text-left p{
-    font-size: 15px ;
+    font-size: 14px ;
     color: #222222;
-}
-.text-left button{
-    margin-top: 50px;
-    margin-left: 0px;
-    font-size: 16px;
-    font-family: FuturaLT-Bold;
-    border-radius: 10px;
-    background-color: rgb(255, 203, 15);
-    width: 157px;
-    height: 45px;
-    border: none;
+    padding: 0px 120px 20px 0px;
 }
 .bg-right {
-     right: 8%;
-     margin-left: 57%;
+     right: 120px;
+     width: 40%;
+    display: inline-block;
      background-image: url("../images/Layer 2.png");
      background-repeat: no-repeat;
      background-position: 5px;
+    float: right;
  }
 .bg-right img{
     margin-left: 25%;
+    max-height: 422px;
 }
 /*Why-chose-us*/
 .Why-chose-us{
     position: absolute;
     width: 1100px;
-    height: 680px;
-    margin-top: 1242px;
+    height: 580px;
+    margin-top: 1002px;
     background-color: #f2f7fa;
-    padding-bottom: 10px;
 }
 .text-center{
     text-align: center;
-    margin: 5% 8% 0% 8%;
+    margin:  50px 0px 0px 0px;
 }
 .text-center h2{
-    font-size: 30px;
-    margin-top: 3%;
+    font-size: 24px;
     font-family: FuturaLT-Bold;
     color: #222222;
 }
 .text-center p{
-    font-size: 15px ;
+    font-size: 14px ;
     color: #222222;
 }
 .container {
     display: flex;
     padding-top: 2px;
-    margin: 0% 8% 0% 8%; }
+    margin: 0 auto; }
 .item-4 {
     flex-basis: 25%;
     margin-left: 1%;}
-.item-4-wcu {
-    flex-basis: 25%;
-    text-align: center;
-}
 .item-4 h4{
-    font-size: 17px;
+    font-size: 15px;
     font-family: FuturaLT-Bold;
     color: #222222;
     text-align: center;
 }
-.item-4 p{
-    font-size: 15px ;
-    color: #222222;
+.item-4-wcu {
+    flex-basis: 25%;
+    text-align: center;
 }
-.item-4 h2{
-    font-size: 20px;
+.item-4-footer-2{
+    flex-basis: 20%;
+}
+.item-4-footer-2 p{
+    font-size: 14px ;
     color: rgb(183, 183, 183);
-    margin-top: 20%;
-    margin-bottom: 10%;
-    margin-left: 15%;
-    /*text-align: center;*/
+    hyphens: auto;
+}
+.item-4-footer-2 a, .item-4-footer a{
+    color: rgb(183, 183, 183);
+    font-size: 14px;
+    padding-left: 5%;
+}
+.item-4-footer a span{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2% 5% 5% 2%;
+    left: 20px;
 }
 .item-4 h6{
     font-size: 12px;
@@ -299,18 +280,24 @@ nav img{
     margin: 2px 0px;
 }
 .item-4-footer {
-    flex-basis: 25%;
-    margin-left: 1%;}
+    flex-basis: 30%;
+    }
+.text {
+    padding-top: 10%;
+}
 .item-4-footer p{
-    font-size: 15px ;
+    font-size: 14px ;
     color: rgb(183, 183, 183);
-    margin-top: 10%;
-    margin-left: 5%;
+    margin-top: 35%;
+    margin-right: 10%;
     float: left;
 }
 .item-4 img{
     float: left;
     padding-right: 5px;
+}
+.item-4 p{
+    padding: 5px 15px;
 }
 .footer .item-4 p{
     display: inline;
@@ -319,81 +306,74 @@ nav img{
     margin: 10% 3% 0% 10%;
     float: left;
 }
-.item-4-footer h3{
-    float: left;
-    font-size: 25px;
-    font-family: FuturaLT-Bold;
-    font-style: italic;
-    margin-top: 20%;
-    line-height: 0.5px;
-    color: rgb(255, 203, 15);
-}
-.item-4-footer h5{
-    float: left;
-    margin-top: 0.005px;
-    font-size: 17px;
-    color: rgb(183, 183, 183);
-}
-.item-4-footer h2{
+
+.item-4-footer h2, .item-4-footer-2 h2{
     font-size: 20px;
     color: rgb(183, 183, 183);
-    margin-top: 20%;
-    margin-bottom: 10%;
+    padding-top: 50px;
     text-align: left;
+}
+.item-4-footer-2 ul, .item-4-footer ul {
+    margin: 55px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+}
+.item-4-footer-2 li, .item-4-footer li{
+    font-size: 15px;
+    color: #e5e5e5;
+    display: list-item;
+    margin-bottom: 8%;
 }
 
 .bo-1{
-    width: 150px;
-    height: 150px;
-    background: #ffea9f;
-    border-radius: 90px;
-    margin: 30px;
-}
-.bo-2{
     width: 130px;
     height: 130px;
+    background: #ffea9f;
+    border-radius: 90px;
+    margin: 30px 30px 10px 30px;
+}
+.bo-2{
+    width: 110px;
+    height: 110px;
     position: absolute;
     margin: 10px 10px;
     background: #fadb64;
     border-radius: 80px;
 }
 .bo-3 {
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     position: absolute;
     margin: 10px 10px;
     background: #ffcb0f;
     border-radius: 80px;
 }
 .bo-4{
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     position: absolute;
     margin: 10px 10px;
     background: #ffffff;
     border-radius: 80px;
 }
 .bo-4 img{
-    margin-top: 29px;
-    margin-left: 28px;
-    width: 32px;
-    height: 32px;
+    margin-top: 21px;
+    margin-left: 22px;
+    width: 25px;
+    height: 25px;
 }
-
-
-
 
 /* Our Service*/
 .our-service{
     position: absolute;
     width: 1100px;
-    height: 741px;
-    margin-top: 1903px;
+    height: 661px;
+    margin-top: 1563px;
     background-color: #fafff8;
 }
 .our-service h2{
-    font-size: 30px;
-    margin-top: 5%;
+    font-size: 24px;
+    margin: 50px 0px 40px 0px;
     text-align: center;
     font-family: FuturaLT-Bold;
     color: #222222;
@@ -404,7 +384,7 @@ nav img{
 }
 .item-3 img{
     width: 95%;
-    height: 50%;
+    height: 45%;
 }
 .item-3 .review-left img{
     float:left;
@@ -414,25 +394,16 @@ nav img{
     max-height: 15%;
 }
 .item-3 h4{
-    font-size: 17px;
+    font-size: 15px;
     font-family: FuturaLT-Bold;
     color: #222222;
 }
 .item-3 p{
-    font-size: 15px ;
+    font-size: 14px ;
     color: #222222;
+    padding-bottom: 20px;
 }
-.item-3 button{
-    margin-top: 20px;
-    margin-left: 0px;
-    font-size: 16px;
-    font-family: FuturaLT-Bold;
-    border-radius: 10px;
-    background-color: rgb(255, 203, 15);
-    width: 157px;
-    height: 45px;
-    border: none;
-}
+
 .item-3 .review-center img{
     float:left;
     margin-left: 5%;
@@ -445,32 +416,34 @@ nav img{
 .made-with-love{
     position: absolute;
     width: 1100px;
-    height: 890px;
-    margin-top: 2644px;
+    height: 730px;
+    margin-top: 2224px;
     background-image: url("../images/Layer 3.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .made-with-love h2{
-    font-size: 30px;
+    font-size: 24px;
     margin-top: 5%;
     text-align: center;
     font-family: FuturaLT-Bold;
     color: #f3f3f3;
 }
 .made-with-love section{
-    margin: 0% 8% 5% 8%;
     text-align: center;
 }
 .made-with-love p{
-    font-size: 15px;
+    font-size: 14px;
+    color: #f3f3f3;
 }
 .made-with-love nav a{
-    font-size: 15px;
+    font-size: 14px;
     font-family: FuturaLT;
     color: #f3f3f3;
-    margin-left: 3%;
     padding: 10px;
+}
+.made-with-love nav{
+    padding: 40px;
 }
 .made-with-love nav a:hover{
     background-color: #222533;
@@ -481,20 +454,16 @@ button:hover{
     cursor:pointer;
 
 }
-.item-4 ul {
-    margin: 25% 0% 2% 5%;
-    padding: 0;
-    list-style: none;
+.item-4-footer-2 a:hover, span:hover{
+    color: #ffcb0f;
 }
-.item-4 li {
-    font-size: 15px;
-    color: #e5e5e5;
-    margin-bottom: 8%;
-    display: list-item;
-}
+
 li img{
     border-radius: 50%;
+    max-width: 20%;
     margin-left: 0;
+    display: inline-block;
+    float: left;
 }
 .container-made {
     display: flex;
@@ -521,8 +490,8 @@ li img{
 .review{
     position: absolute;
     width: 1100px;
-    height: 1050px;
-    margin-top: 3534px;
+    height: 916px;
+    margin-top: 2954px;
     background-image: url("../images/Layer 17.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -536,18 +505,20 @@ li img{
     z-index : 0;
 }
 .review-center{
-    height: 330px;
+    height: 310px;
     margin: 8% 3% 0% 3%;
     border-radius: 3.5%;
     background-color: #ffcb0f;
     z-index: 1;
 }
 .review-left p{
+    font-size: 14px;
     padding-top: 15%;
     text-align: left;
     margin: 0% 5% 13% 20%;
 }
 .review-center p{
+    font-size: 14px;
     padding-top: 18%;
     text-align: left;
     margin: 0% 5% 13% 20%;
@@ -592,20 +563,20 @@ li img{
 .contact{
     position: absolute;
     width: 1100px;
-    height: 180px;
-    margin-top: 4350px;
+    height: 150px;
+    margin-top: 3680px;
     background-color: #ffcb0f;
     opacity: 0.75;
 }
 .contact h2{
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 8%;
     text-align: center;
     font-family: FuturaLT-Bold;
     color: #222222;
 }
 .contact h1{
-    font-size: 27px;
+    font-size: 26px;
     margin-top: 5%;
     text-align: center;
     color: #222222;
@@ -614,8 +585,8 @@ li img{
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     margin: 10% 0% 5% 0%;
-    width: 240px;
-    height: 45px;
+    width: 90%;
+    height: 40px;
     border: none;
     padding-left: 10px;
 }
@@ -626,17 +597,16 @@ li img{
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     margin: 2% 2% 5% 0%;
-    width: 400px;
-    height: 45px;
-    max-width: 100%;
+    width: 72%;
+    height: 40px;
     border: none;
     padding-left: 10px;
 }
 .contact-input button{
     border-radius: 10px;
     background-color: rgb(47, 50, 64);
-    width: 90px;
-    height: 45px;
+    width: 20%;
+    height: 40px;
     margin-left: 5px;
     color: #f3f3f3;
     border: none;
@@ -651,8 +621,8 @@ li img{
 .tab-mo{
     position: absolute;
     width: 1100px;
-    height: 60px;
-    margin-top: 4530px;
+    height: 40px;
+    margin-top: 3830px;
     background-color: #222533;
     opacity: 0.4;
 }
@@ -660,54 +630,60 @@ li img{
     position: absolute;
     width: 1100px;
     height: 550px;
-    margin-top: 4584px;
+    margin-top: 3870px;
     background-image: url("../images/Layer 4.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.text-footer{
-    padding-top: 18px;
-}
 .container-footer {
     position: absolute;
-    margin-top: 320px;
+    margin-top: 220px;
+    width: 20%;
      display: flex;}
 
 .item-5 {
     flex-basis: 20%;
     margin-right: 3%;
-    width: 50px;
-    height: 40px;
+    width: 100%;
+    height: 35px;
     margin-top: 15px;
     background-color: #ffcb0f;
     border-radius: 50px;
 }
 .item-5 i{
-    margin-left: 33%;
+    margin-left: 30%;
     margin-top: 30%;
+}
+.item-5 a:hover{
+    color: #f2f2f2;
+}
+.item-5 a{
+    color: #222222;
 }
 .item-4 a{
     color: rgb(183, 183, 183);
 }
+
 footer{
     position: absolute;
     width: 1100px;
-    height: 60px;
-    margin-top: 5134px;
+    margin-top: 4420px;
     background-color: #222533;
 }
+footer .footer-text{
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+}
 footer p{
-    line-height: 5.5px;
-    margin: 30% 0 0 38%;
     display: inline;
-    font-size: 17px;
     color: #f3f3f3;
 }
 footer h6{
     top: 10px;
     display: inline;
-    font-size: 17px;
     color: #ffcb0f;
+    font-size: 14px;
 }
 
 .modal {

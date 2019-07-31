@@ -10,7 +10,7 @@ Thực hiện bởi Hồng
 ## Liên kết
 
 - GitHub Page: https://honggamxd.github.io/PSDtoHTML/
-- PSD kink : https://dribbble.com/shots/2817047-Freebie-Construction-Company-Website-Template-Free-PSD/attachments/577782
+- PSD kink : https://drive.google.com/open?id=1zj1VT1iB9VRQm8HLhNRhBDNBUb-E8u4h
 - FILE so sánh, ví dụ fetch : Sosanh.md
 - VD fetch : https://codepen.io/honggamxd/
 ## Kiến thức nắm được
