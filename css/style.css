@@ -68,6 +68,13 @@ a{
     width: 15px;
     padding: 5px;
 }
+.social-icon i:hover, .nav-top span:hover{
+    cursor: pointer;
+}
+.social-icon i:hover{
+    color: #e5e5e5;
+}
+
 .tabnav {
     background-color: rgb(34, 37, 51);
     position: absolute;
@@ -452,9 +459,8 @@ a{
 button:hover{
     background-color: #222533;
     cursor:pointer;
-
 }
-.item-4-footer-2 a:hover, span:hover{
+.item-4-footer-2 a:hover,.item-4-footer span:hover, .item-4-footer-2 span:hover{
     color: #ffcb0f;
 }
 
