@@ -4,8 +4,9 @@
 Tạo trang HTML từ file PSD trước
 Chuyển từ psd sang html
 Thêm JS vào trang web
+Responsive
 
-Thực hiện bởi Hồng
+Thực hiện bởi [Hồng](https://github.com/honggamxd)
 
 ## Liên kết
 
@@ -18,6 +19,7 @@ Thực hiện bởi Hồng
 - Củng cố HTML/CSS 
 - Tạo trang HTML/CSS từ PSD
 - JavaScript : DOM, fetch, ES5,6, slideshow
+Responsive
 
 
 
