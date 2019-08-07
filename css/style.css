@@ -413,16 +413,13 @@ a{
 .know{
     padding-bottom: 10%;
 }
-.our-service content  item-3{
-
-}
 
 .item-3 .review-center img{
     float:left;
     margin-left: 5%;
     margin-top: 5%;
     max-width: 14%;
-    max-height: 11%;
+    max-height: 10%;
 }
 figure{
     margin: 0;

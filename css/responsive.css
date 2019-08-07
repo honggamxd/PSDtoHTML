@@ -1,11 +1,18 @@
 @media screen and (max-width: 575px){
+    .item-2 input{
+        width: 100%;
+        margin: 2% 0% 3% 2%;
+    }
     .social-icon{
         width: 100%;
         margin-right: 8%;
     }
-    .item-2, .item-4, .item-4-footer-2, .item-4-footer, .item-3{
+    .item-4, .item-4-footer-2, .item-4-footer, .item-3{
         flex-basis: 70%;
         margin: 0 auto;
+    }
+    .item-2{
+        flex-basis: 95%;
     }
     .item-3 img{
         width: 100%;
@@ -49,6 +56,9 @@
         flex-basis: 70%;
         margin: 5px auto;
     }
+    /*.item-3 img{*/
+       /*max-height: 180px;*/
+    /*}*/
     .nav-top span{
         margin-right: 5px;
         margin-left: 5px;
@@ -86,7 +96,7 @@
         background-color: rgb(34, 37, 51);
         opacity: 0.9;
         width: 150px;
-        margin: 10% 2% 0% 20%;
+        margin-top: 45px ;
         height: auto;
         position: absolute;
         transition: transform 0.3s ease;
@@ -94,6 +104,7 @@
         transform: translate(0px, 70px);
     }
     .navigation.open a{
+        max-width: 100px;
         text-decoration: none;
         list-style: none;
         margin-bottom: 1%;
@@ -124,10 +135,13 @@
         flex-basis: 50%;
         margin: 0 auto;
     }
+    .item-3 img{
+        max-height: 200px;
+    }
 }
 @media screen and (max-width: 992px){
     .know{
-        padding-bottom: 70%;
+        padding-bottom: 50%;
     }
     .contact h1{
         font-size: 22px;
@@ -154,9 +168,5 @@
     .made-with-love nav{
         padding: 40px 0px;
     }
-
-}
-
-@media screen and (max-width: 767px){
 
 }
