@@ -84,8 +84,8 @@ a{
     height: 82px;
 }
 .tabnav nav{
-    position: absolute;
-    right: 10%;
+    float: right;
+    padding-top: 3%;
 }
 .tabnav nav a{
     color: #e5e5e5;
