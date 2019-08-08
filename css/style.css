@@ -23,7 +23,7 @@ body {
     font-size: 14px;
 }
 p{
-    word-break: break-all;
+    word-break: break-word;
 }
 a{
     text-decoration: none;
@@ -397,7 +397,7 @@ a{
 }
 .item-3 h4{
     margin-left: 5%;
-    font-size: 14px;
+    font-size: 15px;
     font-family: FuturaLT-Bold;
     color: #222222;
 }
@@ -475,7 +475,8 @@ figure{
     font-size: 14px;
     font-family: FuturaLT;
     color: #f3f3f3;
-    padding: 1.5em;
+    display: inline-block;
+    padding: 1.0em;
 }
 .made-with-love nav{
     padding: 40px;
@@ -485,7 +486,8 @@ figure{
     border-radius: 50px;
 }
 button:hover{
-    background-color: #222533;
+    background-color: #f2f2f2;
+    color: #ffcb0f;
     cursor:pointer;
 }
 .item-4-footer-2 a:hover,.item-4-footer span:hover, .item-4-footer-2 span:hover{
