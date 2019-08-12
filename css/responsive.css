@@ -1,6 +1,6 @@
 @media screen and (max-width: 575px){
     .know{
-        padding-bottom: 60%;
+        padding-bottom: 40px;
     }
     .item-2 input{
         width: 100%;
@@ -10,15 +10,34 @@
         width: 100%;
         margin-right: 8%;
     }
-    .item-4, .item-4-footer-2, .item-4-footer, .item-3{
-        flex-basis: 70%;
+    .item-4, .item-4-footer-2, .item-4-footer{
+        flex-basis: 80%;
         margin: 0 auto;
+    }
+    .explor li{
+        width: 45%;
+        display: inline-block;
+    }
+    .item-3{
+        flex-basis: 95%;
+        margin: 0 auto;
+    }
+    .review-left img, .review-center img {
+        max-width: 10%;
+    }
+    .review-center p,.review-left p{
+        margin: 0px 0px 20px 20px;
+    }
+    .review-left, .review-center{
+        height: 180px;
+        margin: 8% 3% 0% 3%;
     }
     .item-2{
         flex-basis: 95%;
     }
     .item-3 img{
-        width: 100%;
+        width: 90%;
+        height: auto;
     }
     .text-area h1, .text-area h3{
         font-size: 28px;
@@ -40,24 +59,33 @@
     .more{
         padding-top: 10%;
     }
-    .review-left, .review-center{
-        margin: 10% 8% 0% 8% ;
-    }
-    /*.item-3{*/
-        /*padding-top: 10%;*/
-    /*}*/
-    .item-3 img{
-        width: 90%;
-    }
     .icon-img{
-        margin: 5% auto;
+        margin: 3% auto 10%;
     }
+    .item-2 .container-made {
+        padding-bottom: 0px;
+    }
+    .mySlides img {
+        height: 50%;
+    }
+
 }
 
 @media screen and (max-width: 767px){
-    .item-8, .item-6{
-        flex-basis: 70%;
+    .container-made .item-8{
+        flex-basis: 50%;
+    }
+    .item-8{
+        flex-basis: 90%;
+        margin: 0 auto;
+    }
+    .item-6{
+        flex-basis: 90%;
         margin: 5px auto;
+    }
+    .item-6 img{
+        width: 98%;
+        padding-left: 2%;
     }
     .nav-top span{
         margin-right: 5px;
@@ -136,16 +164,22 @@
         flex-basis: 50%;
         margin: 0 auto;
     }
-    .item-3 img{
-        max-height: 200px;
-    }
     .know{
-        padding-bottom: 30%;
+        padding-bottom: 50%;
+    }
+    .review-left{
+        height: 270px;
+    }
+    .review-left p{
+        margin: 0% 5% 13% 10%;
+    }
+    .review-center p{
+        margin: 0% 5% 13% 10%;
     }
 }
 @media screen and (max-width: 992px){
     .explor{
-        margin-left: 10%;
+        margin-left: 0%;
     }
     .special{
         margin-top: 0 ;
@@ -163,17 +197,8 @@
     .text-area{
         padding: 8% 0% 6% 0%;
     }
-    .review-left{
-        height: 270px;
-    }
-    .review-left p{
-        margin: 0% 5% 13% 10%;
-    }
-    .review-center p{
-        margin: 0% 5% 13% 10%;
-    }
     .made-with-love nav{
-        padding: 40px 0px;
+        padding: 30px 0px 20px 0px;
     }
 }
 @media screen and (min-width: 768px){

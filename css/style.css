@@ -313,7 +313,7 @@ a{
 .item-4-footer h2, .item-4-footer-2 h2{
     font-size: 20px;
     color: #e5e5e5;
-    padding-top: 60px;
+    padding-top: 50px;
     text-align: left;
 }
 .item-4-footer-2 ul, .item-4-footer ul {
@@ -388,13 +388,6 @@ a{
     height: 45%;
     padding: 3% 0%;
 }
-.item-3 .review-left img{
-    float:left;
-    margin-left: 5%;
-    margin-top: 5%;
-    max-width: 15%;
-    max-height: 15%;
-}
 .item-3 h4{
     margin-left: 5%;
     font-size: 15px;
@@ -414,13 +407,6 @@ a{
     padding-bottom: 10%;
 }
 
-.item-3 .review-center img{
-    float:left;
-    margin-left: 5%;
-    margin-top: 5%;
-    max-width: 14%;
-    max-height: 10%;
-}
 figure{
     margin: 0;
     padding: 0;
@@ -562,6 +548,12 @@ li img{
     text-align: left;
     margin: 0% 5% 13% 20%;
 }
+.review-left img, .review-center img{
+    float:left;
+    margin-left: 5px;
+    max-width: 30px;
+    max-height: 20px;
+}
 .review-center p{
     font-size: 14px;
     text-align: left;
@@ -572,6 +564,9 @@ li img{
     width: 30%;
     margin: 10% auto;
     text-align: center;
+}
+.icon-img h5{
+    margin: 0 auto;
 }
 .box-center {
     margin: 0 auto;
@@ -598,7 +593,7 @@ li img{
     border-left: 5px solid #e5e5e5;
     width: 0;
     height:2px;
-    margin: 2% 5% 0% 0%;
+    margin: 1.5% 1% 0% 0%;
 }
 
 
@@ -634,6 +629,7 @@ li img{
 }
 .contact-input{
     margin-right: 10px;
+    padding-bottom: 10px;
 }
 .contact-input input{
     border-radius: 10px;
@@ -761,7 +757,7 @@ footer h6{
 }
 .mySlides img{
     margin-top: 3%;
-    height: 50%;
+    max-height: 450px;
     width: 55%;
     text-align: center;
 }
